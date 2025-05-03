@@ -1,0 +1,18 @@
+# Ambiente virtual
+.venv/
+venv/
+ENV/
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribución/empaquetado
+dist/
+build/
+*.egg-info/
+
+# Archivos locales
+.DS_Store
+.env
