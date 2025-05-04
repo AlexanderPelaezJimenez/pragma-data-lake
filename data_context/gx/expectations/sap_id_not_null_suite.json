@@ -1,9 +1,0 @@
-{
-  "expectations": [],
-  "id": "0017c1cd-93e9-4eb4-b499-dbff0489ac5d",
-  "meta": {
-    "great_expectations_version": "1.4.2"
-  },
-  "name": "sap_id_not_null_suite",
-  "notes": null
-}

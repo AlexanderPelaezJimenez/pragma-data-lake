@@ -81,35 +81,19 @@ data_docs_sites:
     site_index_builder:
       class_name: DefaultSiteIndexBuilder
 fluent_datasources:
-  pragmaticos_test:
+  my_filesystem_data_source_1:
     type: pandas_filesystem
-    id: 03d970ef-9b9b-4d0d-a905-130e3747f94c
+    id: a01c600d-1031-41be-b893-9565893e187e
     assets:
-      pragmaticos_csv_files:
-        type: csv
-        id: affce3ed-ae13-4517-85c3-9e0a8e11ddb0
-    base_directory: ..\data
-  csv_filesystem:
-    type: pandas_filesystem
-    id: fe152782-bb25-4da8-87e9-a27180f62d64
-    assets:
-      pragmaticos_test:
-        type: csv
-        id: cc1a3bdc-6cf7-4b26-b571-e596d6ef7dd2
-    base_directory: ..\data
-  csv_filesystem_2:
-    type: pandas_filesystem
-    id: 196b1534-f4c2-4791-a3ef-e3aff9210568
-    assets:
-      pragmaticos_test:
-        type: csv
-        id: 9e6b0320-3c05-4c03-b931-87fbf4f2f3f3
+      pragmaticos_test_parquet_file:
+        type: parquet
+        id: 84a0b58b-4fb4-416c-ac5a-911c8a6aee0a
         batch_definitions:
-          pragmaticos_test_batch:
-            id: 76152087-ddcb-48de-997c-6dd42cc38cd3
+          batch_definition_1:
+            id: d1c539d2-6b4d-4d61-8c4f-b3ff33b53da7
             partitioner:
-              regex: pragmaticos_test.csv$
+              regex: pragmaticos_test.parquet$
               param_names: []
-    base_directory: ..\data
+    base_directory: ../data
 analytics_enabled:
-data_context_id: 1164e65a-2099-4050-9951-10f80ef8f92e
+data_context_id: d633b86f-f325-4c0c-a708-cd60f40b341b

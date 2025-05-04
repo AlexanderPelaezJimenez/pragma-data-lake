@@ -1,0 +1,62 @@
+{
+  "expectations": [
+    {
+      "id": "9c4f03e6-d20d-4907-9fa7-f32fca3ca4b0",
+      "kwargs": {
+        "column": "sap_personal_id"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_unique"
+    },
+    {
+      "id": "6e83979b-2348-43ca-8278-0d97e1b213e9",
+      "kwargs": {
+        "column": "correo_corporativo"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "390a9650-502c-4cbc-93a5-174bd6b59edd",
+      "kwargs": {
+        "column": "nacionalidad"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "b16be408-8d4f-4fa3-a881-1f476b6d3037",
+      "kwargs": {
+        "column": "fecha_nacimiento"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "6f86718d-ab3c-41ef-8139-222f569f4c6e",
+      "kwargs": {
+        "column": "edad",
+        "max_value": 40.0,
+        "min_value": 18.0,
+        "strict_max": true,
+        "strict_min": true
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "b440c134-43cb-44be-9c2d-03d04d493e3c",
+      "kwargs": {
+        "column": "sap_personal_id"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_not_be_null"
+    }
+  ],
+  "id": "10be34aa-102d-4436-a69a-53f535572186",
+  "meta": {
+    "great_expectations_version": "1.4.2"
+  },
+  "name": "my_expectation_suite_1",
+  "notes": null
+}

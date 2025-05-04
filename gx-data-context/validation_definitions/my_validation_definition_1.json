@@ -1,0 +1,22 @@
+{
+  "data": {
+    "asset": {
+      "id": "84a0b58b-4fb4-416c-ac5a-911c8a6aee0a",
+      "name": "pragmaticos_test_parquet_file"
+    },
+    "batch_definition": {
+      "id": "d1c539d2-6b4d-4d61-8c4f-b3ff33b53da7",
+      "name": "batch_definition_1"
+    },
+    "datasource": {
+      "id": "a01c600d-1031-41be-b893-9565893e187e",
+      "name": "my_filesystem_data_source_1"
+    }
+  },
+  "id": "4e7d520b-cbed-476e-afc0-4836d4c7f568",
+  "name": "my_validation_definition_1",
+  "suite": {
+    "id": "10be34aa-102d-4436-a69a-53f535572186",
+    "name": "my_expectation_suite_1"
+  }
+}
